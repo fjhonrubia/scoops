@@ -8,20 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		593626691C8055D200AB3084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593626681C8055D200AB3084 /* AppDelegate.swift */; };
-		5936266B1C8055D200AB3084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5936266A1C8055D200AB3084 /* ViewController.swift */; };
-		5936266E1C8055D200AB3084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5936266C1C8055D200AB3084 /* Main.storyboard */; };
 		593626701C8055D200AB3084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5936266F1C8055D200AB3084 /* Assets.xcassets */; };
 		593626731C8055D200AB3084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593626711C8055D200AB3084 /* LaunchScreen.storyboard */; };
+		5936267B1C805A2300AB3084 /* Azure Storage Client Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5936267A1C805A2300AB3084 /* Azure Storage Client Library.framework */; };
+		5936267D1C805F1100AB3084 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5936267C1C805F1100AB3084 /* WindowsAzureMobileServices.framework */; };
+		5936267F1C805F6A00AB3084 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5936267E1C805F6A00AB3084 /* libxml2.2.tbd */; };
+		593626831C805FB000AB3084 /* FHLFake.m in Sources */ = {isa = PBXBuildFile; fileRef = 593626821C805FB000AB3084 /* FHLFake.m */; };
+		593626851C80626700AB3084 /* FHLWritersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593626841C80626700AB3084 /* FHLWritersTableViewController.swift */; };
+		593626891C806F6400AB3084 /* FHLNewNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593626871C806F6400AB3084 /* FHLNewNewsViewController.swift */; };
+		5936268A1C806F6400AB3084 /* FHLNewNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 593626881C806F6400AB3084 /* FHLNewNewsViewController.xib */; };
+		5936268D1C84398B00AB3084 /* noImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5936268C1C84398B00AB3084 /* noImage.png */; };
+		593626931C84962800AB3084 /* FHLAzureCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593626921C84962800AB3084 /* FHLAzureCommunication.swift */; };
+		593626951C8590B200AB3084 /* FHLReadersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593626941C8590B200AB3084 /* FHLReadersTableViewController.swift */; };
+		593626981C85969000AB3084 /* FHLDetailReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593626961C85969000AB3084 /* FHLDetailReaderViewController.swift */; };
+		593626991C85969000AB3084 /* FHLDetailReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 593626971C85969000AB3084 /* FHLDetailReaderViewController.xib */; };
+		59DAC6C51C819B6D00C685EB /* FHLNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAC6C41C819B6D00C685EB /* FHLNew.swift */; };
+		59DAC6CC1C81A37100C685EB /* FHLInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAC6CA1C81A37100C685EB /* FHLInitViewController.swift */; };
+		59DAC6CD1C81A37100C685EB /* FHLInitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59DAC6CB1C81A37100C685EB /* FHLInitViewController.xib */; };
+		59DAC6D01C81A50900C685EB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAC6CF1C81A50900C685EB /* Helper.swift */; };
+		59E450AD1C86FCD400C7FE2D /* FHLNewsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59E450AC1C86FCD400C7FE2D /* FHLNewsViewCell.xib */; };
+		59E450AF1C86FE7B00C7FE2D /* FHLNewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E450AE1C86FE7B00C7FE2D /* FHLNewsViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		593626651C8055D200AB3084 /* Scoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		593626681C8055D200AB3084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5936266A1C8055D200AB3084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5936266D1C8055D200AB3084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5936266F1C8055D200AB3084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		593626721C8055D200AB3084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		593626741C8055D200AB3084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5936267A1C805A2300AB3084 /* Azure Storage Client Library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Azure Storage Client Library.framework"; sourceTree = "<group>"; };
+		5936267C1C805F1100AB3084 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		5936267E1C805F6A00AB3084 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		593626801C805FB000AB3084 /* Scoops-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scoops-Bridging-Header.h"; sourceTree = "<group>"; };
+		593626811C805FB000AB3084 /* FHLFake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHLFake.h; sourceTree = "<group>"; };
+		593626821C805FB000AB3084 /* FHLFake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHLFake.m; sourceTree = "<group>"; };
+		593626841C80626700AB3084 /* FHLWritersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHLWritersTableViewController.swift; sourceTree = "<group>"; };
+		593626871C806F6400AB3084 /* FHLNewNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHLNewNewsViewController.swift; sourceTree = "<group>"; };
+		593626881C806F6400AB3084 /* FHLNewNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHLNewNewsViewController.xib; sourceTree = "<group>"; };
+		5936268C1C84398B00AB3084 /* noImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noImage.png; sourceTree = "<group>"; };
+		593626921C84962800AB3084 /* FHLAzureCommunication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHLAzureCommunication.swift; sourceTree = "<group>"; };
+		593626941C8590B200AB3084 /* FHLReadersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHLReadersTableViewController.swift; sourceTree = "<group>"; };
+		593626961C85969000AB3084 /* FHLDetailReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHLDetailReaderViewController.swift; sourceTree = "<group>"; };
+		593626971C85969000AB3084 /* FHLDetailReaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHLDetailReaderViewController.xib; sourceTree = "<group>"; };
+		59DAC6C41C819B6D00C685EB /* FHLNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHLNew.swift; sourceTree = "<group>"; };
+		59DAC6CA1C81A37100C685EB /* FHLInitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHLInitViewController.swift; sourceTree = "<group>"; };
+		59DAC6CB1C81A37100C685EB /* FHLInitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHLInitViewController.xib; sourceTree = "<group>"; };
+		59DAC6CF1C81A50900C685EB /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		59E450AC1C86FCD400C7FE2D /* FHLNewsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHLNewsViewCell.xib; sourceTree = "<group>"; };
+		59E450AE1C86FE7B00C7FE2D /* FHLNewsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHLNewsViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5936267F1C805F6A00AB3084 /* libxml2.2.tbd in Frameworks */,
+				5936267D1C805F1100AB3084 /* WindowsAzureMobileServices.framework in Frameworks */,
+				5936267B1C805A2300AB3084 /* Azure Storage Client Library.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +75,9 @@
 		5936265C1C8055D200AB3084 = {
 			isa = PBXGroup;
 			children = (
+				5936267E1C805F6A00AB3084 /* libxml2.2.tbd */,
+				5936267C1C805F1100AB3084 /* WindowsAzureMobileServices.framework */,
+				5936267A1C805A2300AB3084 /* Azure Storage Client Library.framework */,
 				593626671C8055D200AB3084 /* Scoops */,
 				593626661C8055D200AB3084 /* Products */,
 			);
@@ -54,14 +94,69 @@
 		593626671C8055D200AB3084 /* Scoops */ = {
 			isa = PBXGroup;
 			children = (
+				59E450AB1C86FC8700C7FE2D /* Views */,
+				5936268B1C84397B00AB3084 /* Resources */,
+				59DAC6CE1C81A4F300C685EB /* Helpers */,
+				59DAC6C11C819B2D00C685EB /* Model */,
+				593626861C80626C00AB3084 /* Controllers */,
 				593626681C8055D200AB3084 /* AppDelegate.swift */,
-				5936266A1C8055D200AB3084 /* ViewController.swift */,
-				5936266C1C8055D200AB3084 /* Main.storyboard */,
 				5936266F1C8055D200AB3084 /* Assets.xcassets */,
 				593626711C8055D200AB3084 /* LaunchScreen.storyboard */,
 				593626741C8055D200AB3084 /* Info.plist */,
+				593626811C805FB000AB3084 /* FHLFake.h */,
+				593626821C805FB000AB3084 /* FHLFake.m */,
+				593626801C805FB000AB3084 /* Scoops-Bridging-Header.h */,
 			);
 			path = Scoops;
+			sourceTree = "<group>";
+		};
+		593626861C80626C00AB3084 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				593626841C80626700AB3084 /* FHLWritersTableViewController.swift */,
+				593626871C806F6400AB3084 /* FHLNewNewsViewController.swift */,
+				593626881C806F6400AB3084 /* FHLNewNewsViewController.xib */,
+				59DAC6CA1C81A37100C685EB /* FHLInitViewController.swift */,
+				59DAC6CB1C81A37100C685EB /* FHLInitViewController.xib */,
+				593626941C8590B200AB3084 /* FHLReadersTableViewController.swift */,
+				593626961C85969000AB3084 /* FHLDetailReaderViewController.swift */,
+				593626971C85969000AB3084 /* FHLDetailReaderViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5936268B1C84397B00AB3084 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5936268C1C84398B00AB3084 /* noImage.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		59DAC6C11C819B2D00C685EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59DAC6C41C819B6D00C685EB /* FHLNew.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		59DAC6CE1C81A4F300C685EB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				59DAC6CF1C81A50900C685EB /* Helper.swift */,
+				593626921C84962800AB3084 /* FHLAzureCommunication.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		59E450AB1C86FC8700C7FE2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59E450AC1C86FCD400C7FE2D /* FHLNewsViewCell.xib */,
+				59E450AE1C86FE7B00C7FE2D /* FHLNewsViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +217,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5936268A1C806F6400AB3084 /* FHLNewNewsViewController.xib in Resources */,
 				593626731C8055D200AB3084 /* LaunchScreen.storyboard in Resources */,
+				5936268D1C84398B00AB3084 /* noImage.png in Resources */,
+				593626991C85969000AB3084 /* FHLDetailReaderViewController.xib in Resources */,
 				593626701C8055D200AB3084 /* Assets.xcassets in Resources */,
-				5936266E1C8055D200AB3084 /* Main.storyboard in Resources */,
+				59DAC6CD1C81A37100C685EB /* FHLInitViewController.xib in Resources */,
+				59E450AD1C86FCD400C7FE2D /* FHLNewsViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +234,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5936266B1C8055D200AB3084 /* ViewController.swift in Sources */,
 				593626691C8055D200AB3084 /* AppDelegate.swift in Sources */,
+				59DAC6D01C81A50900C685EB /* Helper.swift in Sources */,
+				593626891C806F6400AB3084 /* FHLNewNewsViewController.swift in Sources */,
+				593626981C85969000AB3084 /* FHLDetailReaderViewController.swift in Sources */,
+				59DAC6C51C819B6D00C685EB /* FHLNew.swift in Sources */,
+				593626951C8590B200AB3084 /* FHLReadersTableViewController.swift in Sources */,
+				59DAC6CC1C81A37100C685EB /* FHLInitViewController.swift in Sources */,
+				59E450AF1C86FE7B00C7FE2D /* FHLNewsViewCell.swift in Sources */,
+				593626931C84962800AB3084 /* FHLAzureCommunication.swift in Sources */,
+				593626851C80626700AB3084 /* FHLWritersTableViewController.swift in Sources */,
+				593626831C805FB000AB3084 /* FHLFake.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5936266C1C8055D200AB3084 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5936266D1C8055D200AB3084 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		593626711C8055D200AB3084 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -247,10 +347,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Scoops/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fhl.Scoops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Scoops/Scoops-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -258,10 +365,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Scoops/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fhl.Scoops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Scoops/Scoops-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -284,6 +397,7 @@
 				593626791C8055D200AB3084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
